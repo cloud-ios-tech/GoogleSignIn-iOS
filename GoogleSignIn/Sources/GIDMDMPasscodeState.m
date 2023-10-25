@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/GIDMDMPasscodeState.h"
+#import "GIDMDMPasscodeState.h"
 
-#import "GoogleSignIn/Sources/GIDMDMPasscodeState_Private.h"
+#import "GIDMDMPasscodeState_Private.h"
 
 #import <Foundation/Foundation.h>
 
-#import "GoogleSignIn/Sources/GIDMDMPasscodeCache.h"
+#import "GIDMDMPasscodeCache.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

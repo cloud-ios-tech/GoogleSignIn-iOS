@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDAuthentication.h"
+#import "GIDAuthentication.h"
 
 #ifdef SWIFT_PACKAGE
 @import AppAuth;

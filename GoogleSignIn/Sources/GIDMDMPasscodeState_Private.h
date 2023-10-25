@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GoogleSignIn/Sources/GIDMDMPasscodeState.h"
+#import "GIDMDMPasscodeState.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

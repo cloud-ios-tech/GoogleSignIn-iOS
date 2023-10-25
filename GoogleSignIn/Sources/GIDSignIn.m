@@ -12,26 +12,26 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h"
+#import "GIDSignIn.h"
 
-#import "GoogleSignIn/Sources/GIDSignIn_Private.h"
+#import "GIDSignIn_Private.h"
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDAuthentication.h"
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDConfiguration.h"
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDGoogleUser.h"
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDProfileData.h"
+#import "GIDAuthentication.h"
+#import "GIDConfiguration.h"
+#import "GIDGoogleUser.h"
+#import "GIDProfileData.h"
 
-#import "GoogleSignIn/Sources/GIDSignInInternalOptions.h"
-#import "GoogleSignIn/Sources/GIDSignInPreferences.h"
-#import "GoogleSignIn/Sources/GIDCallbackQueue.h"
-#import "GoogleSignIn/Sources/GIDScopes.h"
-#import "GoogleSignIn/Sources/GIDSignInCallbackSchemes.h"
-#import "GoogleSignIn/Sources/GIDAuthStateMigration.h"
-#import "GoogleSignIn/Sources/GIDEMMErrorHandler.h"
+#import "GIDSignInInternalOptions.h"
+#import "GIDSignInPreferences.h"
+#import "GIDCallbackQueue.h"
+#import "GIDScopes.h"
+#import "GIDSignInCallbackSchemes.h"
+#import "GIDAuthStateMigration.h"
+#import "GIDEMMErrorHandler.h"
 
-#import "GoogleSignIn/Sources/GIDAuthentication_Private.h"
-#import "GoogleSignIn/Sources/GIDGoogleUser_Private.h"
-#import "GoogleSignIn/Sources/GIDProfileData_Private.h"
+#import "GIDAuthentication_Private.h"
+#import "GIDGoogleUser_Private.h"
+#import "GIDProfileData_Private.h"
 
 #ifdef SWIFT_PACKAGE
 @import AppAuth;

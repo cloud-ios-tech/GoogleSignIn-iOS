@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDProfileData.h"
+#import "GIDProfileData.h"
 
-#import "GoogleSignIn/Sources/GIDProfileData_Private.h"
+#import "GIDProfileData_Private.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

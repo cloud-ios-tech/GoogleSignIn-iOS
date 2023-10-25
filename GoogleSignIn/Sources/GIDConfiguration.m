@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDConfiguration.h"
+#import "GIDConfiguration.h"
 
 // The key for the clientID property to be used with NSSecureCoding.
 static NSString *const kClientIDKey = @"clientID";

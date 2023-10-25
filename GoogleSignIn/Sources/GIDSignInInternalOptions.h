@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h"
+#import "GIDSignIn.h"
 
 @class GIDConfiguration;
 

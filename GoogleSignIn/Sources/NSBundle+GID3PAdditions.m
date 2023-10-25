@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/NSBundle+GID3PAdditions.h"
+#import "NSBundle+GID3PAdditions.h"
 
 #import <CoreText/CoreText.h>
 #import <UIKit/UIKit.h>
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h"
+#import "GIDSignIn.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

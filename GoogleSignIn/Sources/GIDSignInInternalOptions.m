@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/GIDSignInInternalOptions.h"
+#import "GIDSignInInternalOptions.h"
 
-#import "GoogleSignIn/Sources/GIDScopes.h"
+#import "GIDScopes.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignInButton.h"
+#import "GIDSignInButton.h"
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h"
+#import "GIDSignIn.h"
 
-#import "GoogleSignIn/Sources/GIDScopes.h"
-#import "GoogleSignIn/Sources/GIDSignInInternalOptions.h"
-#import "GoogleSignIn/Sources/GIDSignInStrings.h"
-#import "GoogleSignIn/Sources/GIDSignIn_Private.h"
-#import "GoogleSignIn/Sources/NSBundle+GID3PAdditions.h"
+#import "GIDScopes.h"
+#import "GIDSignInInternalOptions.h"
+#import "GIDSignInStrings.h"
+#import "GIDSignIn_Private.h"
+#import "NSBundle+GID3PAdditions.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

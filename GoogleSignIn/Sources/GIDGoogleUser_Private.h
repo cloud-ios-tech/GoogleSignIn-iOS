@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDGoogleUser.h"
+#import "GIDGoogleUser.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

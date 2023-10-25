@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDAuthentication.h"
+#import "GIDAuthentication.h"
 
-#import "GoogleSignIn/Sources/GIDAuthentication_Private.h"
+#import "GIDAuthentication_Private.h"
 
-#import "GoogleSignIn/Sources/GIDSignInPreferences.h"
-#import "GoogleSignIn/Sources/GIDEMMErrorHandler.h"
-#import "GoogleSignIn/Sources/GIDMDMPasscodeState.h"
-#import "GoogleSignIn/Sources/Public/GoogleSignIn/GIDSignIn.h"
+#import "GIDSignInPreferences.h"
+#import "GIDEMMErrorHandler.h"
+#import "GIDMDMPasscodeState.h"
+#import "GIDSignIn.h"
 
 #ifdef SWIFT_PACKAGE
 @import AppAuth;

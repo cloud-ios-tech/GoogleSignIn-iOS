@@ -1,0 +1,3 @@
+git "git@gitlab.corp.mail.ru:ios-shared/mail/AppAuth-iOS.git" "2cb2434688c875bc0ffeb1e61794ff7977fa0397"
+github "cloud-ios-tech/GTMAppAuth" "33fade3dc50d973af2e2ec57db249f9770a50850"
+github "cloud-ios-tech/gtm-session-fetcher" "652b3ad26cdee320f49a1e90ab1528cd255f3a8d"

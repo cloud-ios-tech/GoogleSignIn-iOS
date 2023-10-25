@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "GoogleSignIn/Sources/GIDAuthStateMigration.h"
+#import "GIDAuthStateMigration.h"
 
-#import "GoogleSignIn/Sources/GIDSignInCallbackSchemes.h"
+#import "GIDSignInCallbackSchemes.h"
 
 #ifdef SWIFT_PACKAGE
 @import AppAuth;

@@ -1,0 +1,3 @@
+git "git@gitlab.corp.mail.ru:ios-shared/mail/AppAuth-iOS.git" "carthage-support"
+git "git@github.com:cloud-ios-tech/gtm-session-fetcher.git" "carthage-support"
+git "git@github.com:cloud-ios-tech/GTMAppAuth.git" "carthage-support"
