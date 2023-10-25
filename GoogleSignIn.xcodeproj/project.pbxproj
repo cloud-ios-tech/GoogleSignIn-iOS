@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F55A5A7F938FF248E441F1 /* TuistBundle+GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFAD55B11824794199BA06 /* TuistBundle+GoogleSignIn.swift */; };
 		09C3E98C9AED9796D582DFB5 /* GIDSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CEE2593903A910483E70E /* GIDSignIn.m */; };
 		0C787F7AEF52D456656358A3 /* GIDGoogleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 151598F711202DA972511FE8 /* GIDGoogleUser.m */; };
 		15A267D6B4BEA0E4F68823FB /* GIDCallbackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BBED3A40A534E0702B96B2 /* GIDCallbackQueue.m */; };
@@ -32,7 +31,6 @@
 		40A426AAEAD792F1A01ACBFF /* GIDSignIn_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 958E09C2923E70D88228E9BC /* GIDSignIn_Private.h */; };
 		422A8DF9DD320E3F724CACDB /* NSBundle+GID3PAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D9A42671C43CFAF8FC1239 /* NSBundle+GID3PAdditions.h */; };
 		49FF8B8CE11AB51FCFA8BA61 /* GIDAuthStateMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F1F14D709FBF64DC46175 /* GIDAuthStateMigration.h */; };
-		5648D4916CC6858831D1DC7A /* TuistFonts+GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA3A9E53D54DF39411C2B2 /* TuistFonts+GoogleSignIn.swift */; };
 		5F9650D1F29796FC85748907 /* GIDSignInStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9E51C940EE11E071F1F3A6 /* GIDSignInStrings.h */; };
 		6B0DD13B70EEE3F7CFBFC675 /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DA84226F859EF74DB3961F /* GIDSignInButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD16E6FFA6FC181DEDA74B2 /* GIDSignInInternalOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F607BEE54A5334EBEFEC6B /* GIDSignInInternalOptions.h */; };
@@ -86,7 +84,6 @@
 		0D5C8F146C77F58EFE26F174 /* GIDGoogleUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDGoogleUser.h; sourceTree = "<group>"; };
 		0FFDEBE347D74B3C65C9BB20 /* GIDAuthStateMigration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDAuthStateMigration.m; sourceTree = "<group>"; };
 		151598F711202DA972511FE8 /* GIDGoogleUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDGoogleUser.m; sourceTree = "<group>"; };
-		16CFAD55B11824794199BA06 /* TuistBundle+GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+GoogleSignIn.swift"; sourceTree = "<group>"; };
 		19FF0089E3CD141400A3952C /* GIDSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDSignIn.h; sourceTree = "<group>"; };
 		1C59552F39F93C9F81E93E51 /* GIDSignInCallbackSchemes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDSignInCallbackSchemes.h; sourceTree = "<group>"; };
 		25F607BEE54A5334EBEFEC6B /* GIDSignInInternalOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDSignInInternalOptions.h; sourceTree = "<group>"; };
@@ -153,7 +150,6 @@
 		955499E583995A07E71CAA22 /* GIDScopes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDScopes.m; sourceTree = "<group>"; };
 		958E09C2923E70D88228E9BC /* GIDSignIn_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDSignIn_Private.h; sourceTree = "<group>"; };
 		972CEE2593903A910483E70E /* GIDSignIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDSignIn.m; sourceTree = "<group>"; };
-		ACEA3A9E53D54DF39411C2B2 /* TuistFonts+GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+GoogleSignIn.swift"; sourceTree = "<group>"; };
 		B83F2D52BCB4232A340A7E2B /* GIDAuthentication_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDAuthentication_Private.h; sourceTree = "<group>"; };
 		B9259AE47B613C1FE9EE138A /* GIDEMMErrorHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDEMMErrorHandler.m; sourceTree = "<group>"; };
 		C5ACD5DD7E48A3C3D7EEC2BD /* GIDMDMPasscodeCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIDMDMPasscodeCache.h; sourceTree = "<group>"; };
@@ -189,15 +185,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F4FC9AC3B11485CF7BF16D3 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				16CFAD55B11824794199BA06 /* TuistBundle+GoogleSignIn.swift */,
-				ACEA3A9E53D54DF39411C2B2 /* TuistFonts+GoogleSignIn.swift */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		282E65E12AE90C1B0064762A /* Strings */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				E882FA58B6F36ACB73F22DA6 /* InfoPlists */,
-				1F4FC9AC3B11485CF7BF16D3 /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -482,8 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F55A5A7F938FF248E441F1 /* TuistBundle+GoogleSignIn.swift in Sources */,
-				5648D4916CC6858831D1DC7A /* TuistFonts+GoogleSignIn.swift in Sources */,
 				3B2E00D6CD5E2A1B168094C2 /* GIDAuthStateMigration.m in Sources */,
 				C5F8A7D6FA1418F7352CC004 /* GIDAuthentication.m in Sources */,
 				15A267D6B4BEA0E4F68823FB /* GIDCallbackQueue.m in Sources */,
