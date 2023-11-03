@@ -15,13 +15,9 @@
 		236F4A50460A4778AED3C4F4 /* GIDEMMErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B9259AE47B613C1FE9EE138A /* GIDEMMErrorHandler.m */; };
 		282E66092AE90C1B0064762A /* GoogleSignIn.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282E65E22AE90C1B0064762A /* GoogleSignIn.strings */; };
 		282E660A2AE90DC40064762A /* AppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E72AE81E1F008A0726 /* AppAuth.xcframework */; };
-		282E660B2AE90DC40064762A /* AppAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E72AE81E1F008A0726 /* AppAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DD92AE88BFE008B0827 /* AppAuthCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E62AE81E1F008A0726 /* AppAuthCore.xcframework */; };
-		28829DDA2AE88BFE008B0827 /* AppAuthCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E62AE81E1F008A0726 /* AppAuthCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DDB2AE88BFE008B0827 /* GTMAppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12EF2AE82248008A0726 /* GTMAppAuth.xcframework */; };
-		28829DDC2AE88BFE008B0827 /* GTMAppAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12EF2AE82248008A0726 /* GTMAppAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DDD2AE88BFE008B0827 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E82AE81E1F008A0726 /* GTMSessionFetcher.xcframework */; };
-		28829DDE2AE88BFE008B0827 /* GTMSessionFetcher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC12E82AE81E1F008A0726 /* GTMSessionFetcher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28FF229E50B5FB74E93516B8 /* GIDEMMErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 63627CEDFB00F1FA59DC0785 /* GIDEMMErrorHandler.h */; };
 		2B68717CB334615D289572B3 /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FF0089E3CD141400A3952C /* GIDSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3264D0138D598FDA3CD926DD /* GIDScopes.m in Sources */ = {isa = PBXBuildFile; fileRef = 955499E583995A07E71CAA22 /* GIDScopes.m */; };
@@ -61,23 +57,6 @@
 		F799E1B65253C68B1329CE95 /* GIDSignInPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F2861CA491B6F756E6FE313B /* GIDSignInPreferences.h */; };
 		F8379DFD7A0E511A432BC98D /* GIDProfileData_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E97CA69A6E4226CF3D91C7AF /* GIDProfileData_Private.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		28829DDF2AE88BFE008B0827 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				28829DDC2AE88BFE008B0827 /* GTMAppAuth.xcframework in Embed Frameworks */,
-				282E660B2AE90DC40064762A /* AppAuth.xcframework in Embed Frameworks */,
-				28829DDE2AE88BFE008B0827 /* GTMSessionFetcher.xcframework in Embed Frameworks */,
-				28829DDA2AE88BFE008B0827 /* AppAuthCore.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08E668BE8946EFDA813F5330 /* google@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google@3x.png"; sourceTree = "<group>"; };
@@ -374,7 +353,6 @@
 				C941E836DF87477717DB36A6 /* Sources */,
 				E7ACB2A276D361D137D657A3 /* Resources */,
 				1ADC9FCE543D4929166CFB05 /* Frameworks */,
-				28829DDF2AE88BFE008B0827 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
